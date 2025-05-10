@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+.jumbotron{
+	padding-top: 8px;
+	padding-bottom: 60px;
+	background-image: url("../images/imgfondo.jpg")
+}
+/*NAVBAR*/
+.nav-link{
+	font-family: "Quicksand", serif;
+    font-weight: 700;
+}
+.navbar-light .nav-link:hover{
+	color: white !important;
+	background-color: #D8198F;
+	border-radius: 5px;
+}
+.active{
+	background-color: #D8198F;
+	color: #ffffff !important;
+	border-radius: 5px;
+}
+.dropdown-menu{
+	background-color: #b3d9f2;
+	max-width: 120px;
+}
+.dropdown-item{
+	font-family: "Quicksand", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+}
+.dropdown-item:hover{
+	color: #2b81bb;
+	background-color: transparent;
+}
+
+/*Encabezado*/
+.container-fluid{
+	padding: 0px 80px 0px 80px;
+}
+h1{
+	font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+	font-size: 85px;
+	color: #2b81bb;
+}
+h2{
+	font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+	font-size: 40px;
+	color: #333333;
+}
+p{
+	font-family: "Quicksand", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 18px;
+	color: #333333;
+	margin: 10px 0px 40px 0px;
+}
+.resaltado{
+	color: #d8198f;
+}
+.txtresaltado, a{
+	color: #d8198f;
+	font-weight: 700;
+	text-decoration: none;
+}
+h3{
+	font-family: "Outfit", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 500;
+  	font-style: normal;
+	text-align: center;
+	font-size: 40px;
+}
+
+/*SECCIÓN 1*/
+.mv{
+	font-family: "Quicksand", serif;
+ 	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+	color: white;
+	font-size: 30px;
+	background-color: #d8198f;
+	padding: 5px;
+	width: 100px;
+}
+
+/* SECCIÓN 2 */
+.azul{
+	background-color: #b3d9f2;
+	padding: 0px 10% 0px 10%;
+}
+h4{
+	font-family: "Quicksand", serif;
+ 	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+	color: #333333;
+	font-size: 30px;
+}
+.card{
+	box-shadow: 0 .25rem .5rem #21212126;
+}
+
+/*SECCIÓN 3*/
+.btn{
+	font-family: "Quicksand", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+	color: white;
+	background-color: #d8198f;
+	padding:10px;
+	border-radius: 5px;
+}
+.btn:hover{
+	background-color: #d661b4;
+}
+a, a:hover{
+	color: white;
+	text-decoration: none;
+}
+.section3{
+	padding: 0px 10% 0px 10%;
+}
+.pie{
+	background-color: #2b81bb;
+}
+.pie p{
+	color: #ffffff;
+}

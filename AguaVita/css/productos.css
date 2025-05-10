@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.jumbotron{
+	padding-top: 8px;
+	padding-bottom: 60px;
+	background-image: url("../images/imgfondo.jpg")
+}
+/*NAVBAR*/
+.nav-link{
+	font-family: "Quicksand", serif;
+    font-weight: 700;
+}
+.navbar-light .nav-link:hover{
+	color: white !important;
+	background-color: #D8198F;
+	border-radius: 5px;
+}
+.active{
+	background-color: #D8198F;
+	color: #ffffff !important;
+	border-radius: 5px;
+}
+.dropdown-menu{
+	background-color: #b3d9f2;
+	max-width: 120px;
+}
+.dropdown-item{
+	font-family: "Quicksand", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+}
+.dropdown-item:hover{
+	color: #2b81bb;
+	background-color: transparent;
+}
+
+/*----------------encabezado-fuentes-----------------------------*/
+
+/*Encabezado*/
+.container-fluid{
+		
+}
+
+.seccion2{
+	padding: 0px 80px 0px 80px;
+}
+
+h1{
+	font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+	font-size: 100px;
+	color: #2b81bb;
+}
+h2{
+	font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+	font-size: 40px;
+	color: #333333;
+}
+p{
+	font-family: "Quicksand", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 18px;
+	color: #333333;
+	margin: 10px 0px 40px 0px;
+}
+.btn{
+	font-family: "Quicksand", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+	color: white;
+	background-color: #d8198f;
+	padding:10px;
+	border-radius: 5px;
+}
+.btn:hover{
+	background-color: #d661b4;
+}
+
+.resaltado{
+	color: #d8198f;
+}
+h3{
+	font-family: "Outfit", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 500;
+  	font-style: normal;
+	text-align: center;
+	font-size: 40px;
+}
+h4{
+	font-family: "Quicksand", serif;
+ 	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+	color: #333333;
+	font-size: 30px;
+}
+/*
+.pagination{
+	font-family: "Quicksand", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 17px;
+	color: black;
+	margin: 10px 0px 40px 0px;
+	
+}
+
+.page-link:hover{
+	background-color: #E0F7FD;
+	
+	
+}
+
+.page2{
+	color: black;
+}
+
+.page2:hover{
+	background-color: #d661b4;
+	color: white;
+	
+	
+}
+*/
+
+li a{
+	font-family: "Quicksand", serif;
+ 	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 18px;
+	color: #333333;
+}
+.page-link {
+    color: #333333;
+}
+.page-link:hover{
+	color: #ffffff;
+	background-color: #D8198F;
+
+}
+.active2{
+	color: #ffffff;
+	background-color: #2b81bb;
+}
+/*---------------SECCIÓN-2-----------------------*/
+
+.producto1{
+   padding: 0px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  border: 5px solid #d8198f;
+  font-weight: 800;
+  text-align: center;
+  
+  
+	
+}
+
+
+.img1{
+	width: 80%;
+	margin:10px 0px 10px 0px;
+}
+.img2{
+	margin-bottom: 20px;
+	width: 80%;
+	margin:10px 0px 10px 0px;
+}
+
+
+
+.precio{
+	display: flex;
+	justify-content: center;
+	color: #d8198f;
+	font-weight: 900;
+	font-size: 50px;
+    margin-bottom: 0; 
+    padding-bottom: 0;
+	
+	
+	
+}
+
+.productotex{
+	display: flex;
+	font-weight: 700;
+	justify-content: space-around;
+	align-items: stretch;
+	
+	
+}
+
+/*-------------------------JUMBOTROM-2----------------------------------*/
+
+.jumbotrom2{
+	padding-top: 25px;
+	padding-bottom: 60px;
+	background-image: url("../images/fondo2.jpg");
+	margin-top: 40px;
+}
+
+.textos4{
+	margin-top: 240px;
+	margin-bottom: 40px;
+	
+}
+
+
+/*--------------------------PIE-------------------------------*/
+
+.pie{
+	background-color: #2b81bb;
+}
+.pie p{
+	color: #ffffff;
+}

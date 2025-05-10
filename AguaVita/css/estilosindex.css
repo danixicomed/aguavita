@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+.jumbotron{
+	padding-top: 8px;
+	padding-bottom: 60px;
+	background-image: url("../images/imgfondo.jpg")
+}
+/*NAVBAR*/
+.nav-link{
+	font-family: "Quicksand", serif;
+    font-weight: 700;
+}
+.navbar-light .nav-link:hover{
+	color: white !important;
+	background-color: #D8198F;
+	border-radius: 5px;
+}
+.active{
+	background-color: #D8198F;
+	color: #ffffff !important;
+	border-radius: 5px;
+}
+.dropdown-menu{
+	background-color: #b3d9f2;
+	max-width: 120px;
+}
+.dropdown-item{
+	font-family: "Quicksand", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+}
+.dropdown-item:hover{
+	color: #2b81bb;
+	background-color: transparent;
+}
+
+/*Encabezado*/
+.container-fluid{
+	padding: 0px 80px 0px 80px;
+}
+h1{
+	font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+	font-size: 100px;
+	color: #2b81bb;
+}
+h2{
+	font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+	font-size: 40px;
+	color: #333333;
+}
+p{
+	font-family: "Quicksand", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 18px;
+	color: #333333;
+	margin: 10px 0px 40px 0px;
+}
+a, a:hover{
+	color: white;
+	text-decoration: none;
+}
+.btn{
+	font-family: "Quicksand", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+	color: white;
+	background-color: #d8198f;
+	padding:10px;
+	border-radius: 5px;
+}
+.btn:hover{
+	background-color: #d661b4;
+}
+
+/*Sección 1*/
+.resaltado{
+	color: #d8198f;
+}
+h3{
+	font-family: "Outfit", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 500;
+  	font-style: normal;
+	text-align: center;
+	font-size: 40px;
+}
+h4{
+	font-family: "Quicksand", serif;
+ 	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+	color: #333333;
+	font-size: 30px;
+}
+.card{
+	box-shadow: 0 .25rem .5rem #21212126;
+}
+/*Sección 2*/
+.azul{
+	background-image: url("../images/fondo2.jpg");
+	padding-bottom: 3rem;
+}
+
+/*GALERÍA*/
+.img-fluid{
+	border-radius: 5px;
+}
+
+/*PIE*/
+.pie{
+	background-color: #2b81bb;
+}
+.pie p{
+	color: #ffffff;
+}
